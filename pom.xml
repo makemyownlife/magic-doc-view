@@ -22,6 +22,7 @@
         <module>plugins</module>
         <!-- 转码 worker  -->
         <module>worker</module>
+        <module>common</module>
     </modules>
 
 </project>
