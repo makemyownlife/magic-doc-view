@@ -10,22 +10,12 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
+    <artifactId>converter.worker</artifactId>
+
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-
-    <artifactId>converter.worker</artifactId>
-
-    <dependencies>
-
-        <dependency>
-            <groupId>cn.javayong</groupId>
-            <artifactId>converter.common</artifactId>
-            <version>${parent.version}</version>
-        </dependency>
-
-    </dependencies>
 
 </project>
