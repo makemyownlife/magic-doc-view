@@ -7,11 +7,11 @@
 
    <parent>
         <groupId>cn.javayong</groupId>
-        <artifactId>magic-converter</artifactId>
+        <artifactId>magicFileView</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>converter.store</artifactId>
+    <artifactId>magicFileView.store</artifactId>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
