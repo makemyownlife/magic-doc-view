@@ -1,4 +1,4 @@
-package cn.javayong.magic.converter.worker;
+package cn.javayong.magic.fileview.worker;
 
 public class WorkerApplication {
 

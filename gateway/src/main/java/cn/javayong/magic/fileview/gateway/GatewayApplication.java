@@ -1,4 +1,4 @@
-package cn.javayong.magic.converter.gateway;
+package cn.javayong.magic.fileview.gateway;
 
 import org.mybatis.spring.annotation.MapperScan;
 import org.slf4j.Logger;
@@ -12,7 +12,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
  */
 @EnableTransactionManagement
 @SpringBootApplication
-@MapperScan("cn.javayong.magic.converter")
+@MapperScan("cn.javayong.magic.fileview")
 public class GatewayApplication {
 
     private static Logger logger = LoggerFactory.getLogger(GatewayApplication.class);
