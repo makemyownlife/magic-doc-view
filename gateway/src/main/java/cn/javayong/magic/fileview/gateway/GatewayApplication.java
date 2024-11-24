@@ -22,7 +22,7 @@ public class GatewayApplication {
         logger.info("开始启动转码网关");
         SpringApplication application = new SpringApplication(GatewayApplication.class);
         application.run(args);
-        logger.info("结束启动转码网关，耗时：" + (System.currentTimeMillis() - start) + "毫秒");
+        logger.info("结束启动转码网关，耗时：" + (System.currentTimeMillis() - start) + " 毫秒");
     }
 
 }
