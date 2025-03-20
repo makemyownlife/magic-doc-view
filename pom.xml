@@ -12,14 +12,12 @@
     <version>1.0-SNAPSHOT</version>
 
     <properties>
+
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
         <!-- dependency properties start -->
-        <netty.version>4.1.65.Final</netty.version>
-        <netty.tcnative.version>2.0.53.Final</netty.tcnative.version>
-        <bcpkix-jdk15on.version>1.69</bcpkix-jdk15on.version>
         <junit.version>4.13.1</junit.version>
         <javassist.version>3.20.0-GA</javassist.version>
         <commons-lang3.version>3.12.0</commons-lang3.version>
@@ -38,6 +36,9 @@
         <rocksdb.version>7.7.3</rocksdb.version>
         <hutools.json.version>5.8.31</hutools.json.version>
         <springboot.version>2.3.8.RELEASE</springboot.version>
+
+        <sofa.bolt.version>1.6.11</sofa.bolt.version>
+
         <!-- dependency properties end -->
     </properties>
 
@@ -186,6 +187,16 @@
             </dependency>
 
             <!-- ============================================   数据库查询     end  ================================================== -->
+
+            <!-- ============================================  通讯框架 start ============================================ -->
+
+            <dependency>
+                <groupId>com.alipay.sofa</groupId>
+                <artifactId>bolt</artifactId>
+                <version>${sofa.bolt.version}</version>
+            </dependency>
+
+            <!-- ============================================  通讯框架 end ============================================ -->
 
         </dependencies>
 
