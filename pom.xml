@@ -51,6 +51,8 @@
         <module>store</module>
         <!-- 基础工具包 -->
         <module>common</module>
+        <!-- 发布包 -->
+        <module>distribution</module>
     </modules>
 
     <dependencyManagement>
