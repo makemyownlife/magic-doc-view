@@ -39,7 +39,6 @@
         <hutools.json.version>5.8.31</hutools.json.version>
         <springboot.version>2.3.8.RELEASE</springboot.version>
         <!-- dependency properties end -->
-
     </properties>
 
     <modules>
@@ -53,8 +52,6 @@
         <module>store</module>
         <!-- 基础工具包 -->
         <module>common</module>
-        <!-- 发布包 -->
-        <module>distribution</module>
     </modules>
 
     <dependencyManagement>
