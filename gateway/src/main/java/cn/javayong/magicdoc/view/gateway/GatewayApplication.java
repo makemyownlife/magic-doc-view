@@ -1,4 +1,4 @@
-package cn.javayong.magic.fileview.gateway;
+package cn.javayong.magicdoc.view.gateway;
 
 import org.mybatis.spring.annotation.MapperScan;
 import org.slf4j.Logger;

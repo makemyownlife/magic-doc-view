@@ -6,7 +6,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>cn.javayong</groupId>
-    <artifactId>magicFileView</artifactId>
+    <artifactId>magicdocview</artifactId>
     <packaging>pom</packaging>
 
     <version>1.0-SNAPSHOT</version>
