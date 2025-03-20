@@ -15,6 +15,7 @@
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
         <!-- dependency properties start -->
         <netty.version>4.1.65.Final</netty.version>
         <netty.tcnative.version>2.0.53.Final</netty.tcnative.version>
@@ -38,6 +39,7 @@
         <hutools.json.version>5.8.31</hutools.json.version>
         <springboot.version>2.3.8.RELEASE</springboot.version>
         <!-- dependency properties end -->
+
     </properties>
 
     <modules>
