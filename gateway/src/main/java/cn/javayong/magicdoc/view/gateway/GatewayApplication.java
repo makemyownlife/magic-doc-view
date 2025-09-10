@@ -12,7 +12,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
  */
 @EnableTransactionManagement
 @SpringBootApplication
-@MapperScan("cn.javayong.magic.fileview")
+@MapperScan("cn.javayong.magicdoc.view")
 public class GatewayApplication {
 
     private static Logger logger = LoggerFactory.getLogger(GatewayApplication.class);
