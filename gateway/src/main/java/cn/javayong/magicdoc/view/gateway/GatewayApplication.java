@@ -14,7 +14,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @SpringBootApplication
 @MapperScan("cn.javayong.magicdoc.view")
 public class GatewayApplication {
-
+    
     private static Logger logger = LoggerFactory.getLogger(GatewayApplication.class);
 
     public static void main(String[] args) {
