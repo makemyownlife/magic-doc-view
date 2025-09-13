@@ -11,6 +11,11 @@
     </parent>
 
     <artifactId>magicdocview.common</artifactId>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>redis-springboot-starter</module>
+    </modules>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
