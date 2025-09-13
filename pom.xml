@@ -63,6 +63,8 @@
         <module>admin</module>
         <!-- 打包 -->
         <module>distribution</module>
+        <!-- 服务启动容器 -->
+        <module>server</module>
     </modules>
 
     <dependencyManagement>
