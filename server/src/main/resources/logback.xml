@@ -9,16 +9,16 @@
 
 	<appender name="GATEWAY-ROOT" class="ch.qos.logback.classic.sift.SiftingAppender">
         <discriminator>
-            <Key>gateway</Key>
-            <DefaultValue>gateway</DefaultValue>
+            <Key>server</Key>
+            <DefaultValue>server</DefaultValue>
         </discriminator>
 		<sift>
 			<appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
-				<File>../logs/gateway.log</File>
+				<File>../logs/server.log</File>
 				<rollingPolicy
 						class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
 					<!-- rollover daily -->
-					<fileNamePattern>../logs/gateway/%d{yyyy-MM-dd}/gateway-%d{yyyy-MM-dd}-%i.log.gz</fileNamePattern>
+					<fileNamePattern>../logs/gateway/%d{yyyy-MM-dd}/server-%d{yyyy-MM-dd}-%i.log.gz</fileNamePattern>
 					<timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
 						<!-- or whenever the file size reaches 100MB -->
 						<maxFileSize>512MB</maxFileSize>
