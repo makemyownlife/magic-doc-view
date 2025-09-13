@@ -18,7 +18,7 @@
 				<rollingPolicy
 						class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
 					<!-- rollover daily -->
-					<fileNamePattern>../logs/gateway/%d{yyyy-MM-dd}/server-%d{yyyy-MM-dd}-%i.log.gz</fileNamePattern>
+					<fileNamePattern>../logs/server/%d{yyyy-MM-dd}/server-%d{yyyy-MM-dd}-%i.log.gz</fileNamePattern>
 					<timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
 						<!-- or whenever the file size reaches 100MB -->
 						<maxFileSize>512MB</maxFileSize>
