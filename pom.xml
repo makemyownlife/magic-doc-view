@@ -59,6 +59,8 @@
         <module>store</module>
         <!-- 基础工具包 -->
         <module>common</module>
+        <!-- 后台管理 -->
+        <module>admin</module>
         <!-- 打包 -->
         <module>distribution</module>
     </modules>
