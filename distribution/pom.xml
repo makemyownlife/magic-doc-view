@@ -20,7 +20,35 @@
 
     <dependencies>
 
+        <dependency>
+            <groupId>cn.javayong</groupId>
+            <artifactId>magicdocview.server</artifactId>
+            <version>${parent.version}</version>
+        </dependency>
 
+        <dependency>
+            <groupId>cn.javayong</groupId>
+            <artifactId>magicdocview.common</artifactId>
+            <version>${parent.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>cn.javayong</groupId>
+            <artifactId>magicdocview.gateway</artifactId>
+            <version>${parent.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>cn.javayong</groupId>
+            <artifactId>magicdocview.store</artifactId>
+            <version>${parent.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>cn.javayong</groupId>
+            <artifactId>magicdocview.worker</artifactId>
+            <version>${parent.version}</version>
+        </dependency>
 
     </dependencies>
 
