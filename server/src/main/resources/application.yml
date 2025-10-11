@@ -1,17 +1,13 @@
 server:
-  port: 8089
+  port: 8091
 spring:
   jackson:
     date-format: yyyy-MM-dd HH:mm:ss
     time-zone: GMT+8
 
-  redis:
-    host: 127.0.0.1
-    port: 6379
-
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/tech_platform?useUnicode=true&characterEncoding=UTF8&allowMultiQueries=true&serverTimezone=GMT%2B8&zeroDateTimeBehavior=convertToNull
+    url: jdbc:mysql://localhost:3306/magicdoc_view?useUnicode=true&characterEncoding=UTF8&allowMultiQueries=true&serverTimezone=GMT%2B8&zeroDateTimeBehavior=convertToNull
     username: root
     password: ilxw
     type: com.alibaba.druid.pool.DruidDataSource
@@ -25,15 +21,12 @@ spring:
       test-while-idle: true
       time-between-eviction-runs-millis: 18800
 
+  data:
+    redis:
+      host: 127.0.0.1
+      port: 6379
+
 mybatis:
   mapper-locations: classpath:mapper/*DAO.xml
   type-aliases-package: cn.javayong..sms.domain
-
-
-## 短信管理端用户/密码
-sms:
-  adminUser: admin
-  adminPasswd: admin1984
-
-
 

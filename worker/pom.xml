@@ -25,6 +25,11 @@
             <artifactId>bolt</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>org.jodconverter</groupId>
+            <artifactId>jodconverter-local</artifactId>
+        </dependency>
+
     </dependencies>
 
 </project>

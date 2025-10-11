@@ -3,19 +3,13 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-
     <parent>
         <groupId>cn.javayong</groupId>
         <artifactId>magicdocview</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>magicdocview.common</artifactId>
-    <packaging>pom</packaging>
-
-    <modules>
-        <module>redis-springboot-starter</module>
-    </modules>
+    <artifactId>magicdocview.server</artifactId>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
@@ -26,23 +20,33 @@
     <dependencies>
 
         <dependency>
-            <groupId>ch.qos.logback</groupId>
-            <artifactId>logback-classic</artifactId>
+            <groupId>cn.javayong</groupId>
+            <artifactId>magicdocview.plugins</artifactId>
+            <version>${parent.version}</version>
         </dependency>
 
         <dependency>
-            <groupId>org.apache.commons</groupId>
-            <artifactId>commons-lang3</artifactId>
+            <groupId>cn.javayong</groupId>
+            <artifactId>magicdocview.common</artifactId>
+            <version>${parent.version}</version>
         </dependency>
 
         <dependency>
-            <groupId>com.google.guava</groupId>
-            <artifactId>guava</artifactId>
+            <groupId>cn.javayong</groupId>
+            <artifactId>magicdocview.worker</artifactId>
+            <version>${parent.version}</version>
         </dependency>
 
         <dependency>
-            <groupId>com.alibaba</groupId>
-            <artifactId>druid-spring-boot-3-starter</artifactId>
+            <groupId>cn.javayong</groupId>
+            <artifactId>magicdocview.worker</artifactId>
+            <version>${parent.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>cn.javayong</groupId>
+            <artifactId>magicdocview.gateway</artifactId>
+            <version>${parent.version}</version>
         </dependency>
 
     </dependencies>
