@@ -18,8 +18,8 @@ public class MinioUnitTest {
 
             // 2. 文件信息
             String bucketName = "datasets";
-            String objectName = "mydataset1/images/cat.png"; // 上传路径（类似目录）
-            String filePath = "/Users/zhangyong/Pictures/cat.png"; // 本地文件路径
+            String objectName = "mydataset1/images/xiaoyuanjiang.webp"; // 上传路径（类似目录）
+            String filePath = "/Users/zhangyong/Pictures/xiaoyuanjiang.webp"; // 本地文件路径
 
             // 3. 上传文件（流式上传）
             try (InputStream in = new FileInputStream(filePath)) {
