@@ -13,7 +13,8 @@ public class MinioUnitTest {
             // 1. 初始化 MinIO 客户端
             MinioClient minioClient = MinioClient.builder()
                     .endpoint("http://localhost:9000") // MinIO 地址
-                    .credentials("admin", "admin123456") // 用户名和密码
+                    // accessKey 和 secretKey
+                    .credentials("yHxFBiulXKsuhbg9nHqO", "qmsQU4JuWuwlr3ZgY4eMFbQ9LaTzzEHMV6T722kC")
                     .build();
 
             // 2. 文件信息
@@ -54,7 +55,4 @@ public class MinioUnitTest {
             e.printStackTrace();
         }
     }
-
-
-
 }
